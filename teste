@@ -1,0 +1,9 @@
+#!/bin/bash
+
+INTERFACE="${BLOCK_INSTANCE:-tun0}"
+
+[[ ! -d /sys/class/net/${INTERFACE}/ ]] || [[ "$(cat /sys/class/net/$INTERFACE/operstate)" = 'down' ]] && exit
+
+IP=$(ip addr show tun0 | awk '/inet / {print $2}')
+
+echo ${IP}
