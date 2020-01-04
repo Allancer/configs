@@ -85,10 +85,11 @@ separator=false
 interval=5
 
 # Check if connected to HTB
-[teste]
+[htb]
 label=HTB
 color=#00FF00
 interval=10
+
 # CPU usage
 #
 # The script may be called with -w and -c switches to specify thresholds,
