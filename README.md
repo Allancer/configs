@@ -1,5 +1,5 @@
 # configs
-my configs
+my configs and reminders for new instalations
 
 ### i3 config needs:
   - URxvt
@@ -25,3 +25,6 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim )
  
  ### htb ip
   - if using xfce4 + i3 use genmod plugin and modify htb script by adding <txt> </txt> in the last line
+  
+ ### Xfce4 + i3
+  - comment i3 status bar out of the config
