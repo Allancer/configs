@@ -41,7 +41,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # In order to use gaps you need to disable window titlebars
-for_window [class=".*"] border pixel 1
+for_window [class=".*"] border pixel 3
 
 gaps inner 10
 gaps outer 5
