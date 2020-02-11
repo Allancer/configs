@@ -22,3 +22,6 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim )
       set background=dark
       
       in bashrc or zshrc add -> source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
+ 
+ ### htb ip
+  - if using xfce4 + i3 use genmod plugin and modify htb script by adding <txt> </txt> in the last line
