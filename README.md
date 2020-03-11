@@ -29,4 +29,4 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim )
   
  ### Xfce4 + i3
   - https://feeblenerd.blogspot.com/2015/11/pretty-i3-with-xfce.html ignore point V.
-  - comment i3 status bar out of the config
+  - comment i3 status bar out of the config and probably mod4+shift+e
