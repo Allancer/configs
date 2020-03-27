@@ -9,7 +9,7 @@ my configs and reminders for new instalations
   - oh my zsh
     - zsh-syntax-highlighting ( git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting )
   - powerlevel10k ( https://github.com/romkatv/powerlevel10k ) TO TEST
-
+    - still needs oh my zsh to control plugins and colors!?
 ### vim:
   - pathogen (  mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim )
