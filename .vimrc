@@ -17,3 +17,10 @@ set noshowmode
 let g:lightline = {
       \ 'colorscheme': 'gotham',
       \ }
+
+
+------------------------------------
+
+set number
+syntax on
+set background=light
