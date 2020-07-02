@@ -1,6 +1,7 @@
 # Instalação Arch Linux
 # legacy
 
+```bash
 loadkeys pt-latin1                            # layour teclado portugues
 
 ping -c 2 google.com
@@ -30,7 +31,7 @@ swapon /dev/sda1
 
 mount /dev/sda2 /mnt
 
-# mais uma vez usar lsblk para verificar que o sda1 está como swap e sda2 está em /mnt
+mais uma vez usar lsblk para verificar que o sda1 está como swap e sda2 está em /mnt
 
 pacstrap /mnt base linux linux-firmware vim
 
@@ -141,3 +142,4 @@ echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> 
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
 
+```
