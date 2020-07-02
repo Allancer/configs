@@ -127,6 +127,7 @@ Resolution
     sudo systemctl enable vmtoolsd
 
     sudo systemctl start vmtoolsd
+# se o problema persistir fazer restart do vmtoold ou s isto n funcionar instalar gtkmm gtk2
 
 # usar roboto regular do nerfonts
 
