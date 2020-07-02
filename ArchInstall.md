@@ -126,3 +126,18 @@ Resolution
     sudo systemctl enable vmtoolsd
 
     sudo systemctl start vmtoolsd
+
+# usar roboto regular do nerfonts
+
+# ZSH
+
+pacman -S zsh
+chsh
+      /bin/zsh
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
+
