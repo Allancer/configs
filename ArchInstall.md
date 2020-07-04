@@ -182,6 +182,8 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias pacman='pacman --color=auto'
+alias diff='diff --color=auto'
+alias ip='ip -color=auto'
 
 # create a zkbd compatible hash;
 # # to add other keys to this hash, see: man 5 terminfo
