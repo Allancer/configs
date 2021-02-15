@@ -1,26 +1,12 @@
-execute pathogen#infect('~/.vim/bundle/{}')
 set number
 syntax on
-filetype plugin indent on
-" let g:solarized_termcolors=256
-set background=dark
-colorscheme gotham
+filetype indent on
+set t_Co=256
+set termguicolors
 
-call togglebg#map("<F5>")
+let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 
-if !has('gui_running')
-	  set t_Co=256
-  endif
-
-set laststatus=2 " This line makes lighline.vim appear
-set noshowmode
-let g:lightline = {
-      \ 'colorscheme': 'gotham',
-      \ }
-
-
-------------------------------------
-
-set number
-syntax on
-set background=light
+set background=dark    " Setting dark mode
+colorscheme deus
+let g:deus_termcolors=256
